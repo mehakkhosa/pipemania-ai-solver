@@ -10,7 +10,7 @@ An AI-based solver for the classic puzzle game **Pipemania**, developed in Pytho
   - Internal board representation for dynamic puzzle solving.
   - Modular design for handling various pipe configurations.
 - **Efficient Search**:
-  - Utilized search algorithms such as A* to find the optimal solution. (even though I tried other algorithms but A* worked the best)
+  - Utilized search algorithms such as A* to find the optimal solution. (I tried other algorithms but A* worked the best)
 
 ## My Contributions
 1. Developed:
@@ -38,6 +38,7 @@ An AI-based solver for the classic puzzle game **Pipemania**, developed in Pytho
    - AI computes the optimal actions to connect pipes.
    - Utilizes a search algorithm to minimize the number of moves.
 3. **Output**: Solved puzzle printed in a human-readable format.
+4. A* was chosen because of its ability to efficiently find the shortest path by combining cost-so-far and heuristic estimations, making it ideal for this puzzle format.
 
 ## Installation
 1. Clone the repository:
@@ -45,4 +46,25 @@ An AI-based solver for the classic puzzle game **Pipemania**, developed in Pytho
    git clone https://github.com/mehakkhosa/pipemania-ai-solver.git
    cd pipemania-ai-solver
 
-  
+## Usage
+
+![image](https://github.com/user-attachments/assets/06640f71-bc69-4413-8ccb-68f02168d5fb)
+
+Example input:
+
+![image](https://github.com/user-attachments/assets/bfa6d9b6-7b9e-4fe0-a5c1-22a1f81fcd6c)
+
+The AI solver computes the optimal connections and outputs the following result:
+
+![image](https://github.com/user-attachments/assets/c5988897-ed67-479d-87d7-884a052e6414)
+
+## Acknowledgments
+This project was developed as part of an academic exercise at **Instituto Superior Técnico (IST)**. Base code and test cases were provided by the course instructors.
+
+
+
+
+
+
+
+
